@@ -244,10 +244,4 @@ contract KDZTokens is
         totalSupply = _tokenIdTracker.current();
         return totalSupply;
     }
-
-    // TODO buy token and only accept token with Tree Token of type
-    // TODO move change price, for sale, and buy token to another contract
-    // TODO make Marketplace.sol for market place features https://ethereum.stackexchange.com/questions/112885/i-am-trying-to-create-a-marketplace-smart-contract-to-buy-and-sell-nft-with-erc2
-    // TODO ETH2NFTMarketPlace and Token2NFTMarketPlace contract https://stackoverflow.com/questions/68576053/how-to-take-a-our-erc20-token-as-fee-to-our-products
-    // https://ethereum.stackexchange.com/questions/68202/smart-contract-that-receives-only-one-token
 }
